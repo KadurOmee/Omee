@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Favourite Food Webapp</title>
+
+		<style>
+			#main-header {
+				background-color: rgb(134, 126, 126);
+				padding: 10px;
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			header a {
+				color: white;
+				text-decoration: none;
+				padding: 10px;
+				font-weight: bold;
+			}
+			header li {
+				float: left;
+				list-style-type: none;
+			}
+			nav a:hover {
+				background-color: black;
+			}
+			.images {
+				width: 50%;
+				margin: auto;
+			}
+			.food-items {
+				width: 400px;
+				height: 400px;
+			}
+
+			.contents a {
+				text-decoration: none;
+				color: black;
+			}
+			.label {
+				margin-left: 170px;
+				margin-top: 10px;
+				margin-bottom: 30px;
+			}
+		</style>
+	</head>
+	<body
+		style="
+			padding: 0px;
+			margin: 0px;
+			background-color: rgba(126, 105, 105, 0.324);
+		"
+	>
+		<header>
+			<nav>
+				<ul id="main-header">
+					<li class="top-bar"><a href="#"> Index</a></li>
+					<li class="top-bar"><a href="#"> Food</a></li>
+					<li class="top-bar"><a href="#"> About</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div>
+			<div class="contents">
+				<h2>Top Favourite foods</h2>
+				<ul>
+					<li><a href="#fishfry"> Fish Fry</a></li>
+					<li><a href="#samosa">Samosa</a></li>
+					<li><a href="#burger">Burger</a></li>
+					<li><a href="#cake"> Cake</a></li>
+					<li><a href="#biryani">Biryani</a></li>
+				</ul>
+			</div>
+			<div class="images">
+				<div id="fishfry">
+					<img
+						src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?cs=srgb&dl=pexels-dana-tentis-262959.jpg&fm=jpg"
+						alt="Fish Fry"
+						class="food-items"
+					/>
+				</div>
+				<p class="label">Fish Fry</p>
+
+				<div id="samosa">
+					<img
+						src="https://images.pexels.com/photos/9027521/pexels-photo-9027521.jpeg?cs=srgb&dl=pexels-zi%E2%80%99s-food%26natureart-9027521.jpg&fm=jpg"
+						alt="Samosa"
+						class="food-items"
+					/>
+				</div>
+				<p class="label">Samosa</p>
+
+				<div id="burger">
+					<img
+						src="https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg?cs=srgb&dl=pexels-rajesh-tp-1633578.jpg&fm=jpg"
+						alt="Burger"
+						class="food-items"
+					/>
+				</div>
+				<p class="label">Burger</p>
+
+				<div id="cake">
+					<img
+						src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?cs=srgb&dl=pexels-abhinav-goswami-291528.jpg&fm=jpg"
+						alt="Cake"
+						class="food-items"
+					/>
+				</div>
+				<p class="label">Cake</p>
+
+				<div id="biryani">
+					<img
+						src="https://images.pexels.com/photos/5410401/pexels-photo-5410401.jpeg?cs=srgb&dl=pexels-saveurs-secretes-5410401.jpg&fm=jpgg"
+						alt="Biryani"
+						class="food-items"
+					/>
+				</div>
+				<p class="label">Biryani</p>
+			</div>
+		</div>
+	</body>
+</html>
